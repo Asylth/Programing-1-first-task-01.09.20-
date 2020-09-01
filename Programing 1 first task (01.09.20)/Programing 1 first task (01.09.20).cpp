@@ -10,11 +10,11 @@ int main()
 	std::cin >> user_age;
 	if (user_age >= 20)
 	{
-	std::cout << "You are an adult \n";
+		std::cout << "You are an adult \n";
 	}
 	if (user_age < 20)
 	{
-	std::cout << "You are a teenager \n";
+		std::cout << "You are a teenager \n";
 	}
-	
+
 }
