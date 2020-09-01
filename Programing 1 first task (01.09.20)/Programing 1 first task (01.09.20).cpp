@@ -6,7 +6,7 @@ int user_age;
 int main()
 {
 	std::cout << "What is your age: \n";
-	//std::getline(std::cin >>, user_age); did not work for some reason
+	//std::getline(std::cin, user_age); did not work for some reason
 	std::cin >> user_age;
 	if (user_age > 20)
 	{
